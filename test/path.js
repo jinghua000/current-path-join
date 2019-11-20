@@ -16,6 +16,15 @@ describe('test path', () => {
 
   })
 
+  it('should work with rest parameters', () => {
+
+    strictEqual(
+      join(...tmpFilePath.split('/')),
+      path.join(__dirname, tmpFilePath)
+    )
+
+  })
+
   it('should read the file correctly', () => {
 
     strictEqual(

@@ -6,6 +6,15 @@
   "scripts": {
     "test": "mocha"
   },
+  "keywords": [
+    "path",
+    "fs",
+    "join",
+    "__dirname"
+  ],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jinghua000/current-path-join.git"
@@ -15,7 +24,8 @@
   "bugs": {
     "url": "https://github.com/jinghua000/current-path-join/issues"
   },
-  "homepage": "https://github.com/jinghua000/current-path-join#readme",
+  "homepage": "https://github.com/jinghua000/current-path-join",
+  "dependencies": {},
   "devDependencies": {
     "assert": "^2.0.0",
     "fs-extra": "^8.1.0",
