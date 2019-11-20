@@ -2,9 +2,13 @@
 
 const path = require('path')
 
-module.exports = function (...args) {
+/**
+ * @param {string[]} paths - paths to join
+ * @returns {string} joined path by current directory
+ */
+module.exports = function (...paths) {
   return path.join(
     path.dirname(module.parent.filename),
-    ...args
+    ...paths
   )
 }

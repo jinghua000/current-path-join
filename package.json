@@ -1,10 +1,10 @@
 {
   "name": "current-path-join",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Join the path with current directory.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/jinghua000/current-path-join#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/register": "^7.7.0",
     "assert": "^2.0.0",
     "fs-extra": "^8.1.0",
     "mocha": "^6.2.2"

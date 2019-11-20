@@ -25,4 +25,13 @@ describe('test path', () => {
 
   })
 
+  it('should equal with __dirname if not pass arguments', () => {
+
+    strictEqual(
+      join(),
+      __dirname
+    )
+
+  })
+
 })
