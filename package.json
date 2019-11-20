@@ -1,0 +1,26 @@
+{
+  "name": "current-path-join",
+  "version": "0.0.1",
+  "description": "Join the path with the current dir.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinghua000/current-path-join.git"
+  },
+  "author": "shadow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinghua000/current-path-join/issues"
+  },
+  "homepage": "https://github.com/jinghua000/current-path-join#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/register": "^7.7.0",
+    "assert": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "mocha": "^6.2.2"
+  }
+}
