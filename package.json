@@ -1,7 +1,7 @@
 {
   "name": "current-path-join",
   "version": "0.0.1",
-  "description": "Join the path with the current dir.",
+  "description": "Join the path with current directory.",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --require @babel/register"
