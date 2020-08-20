@@ -34,8 +34,8 @@ Then
 ```js
 const join = require('current-path-join')
 
-join('my', 'path', 'to', 'you')
-// => {absolute}/my/path/to/you
+join('path','to','something')
+// => {absolute}/path/to/something
 ```
 
 Alright, it's that.
